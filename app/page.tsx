@@ -1,65 +1,54 @@
-import Image from "next/image";
-
+import Hero from "./sections/Homepage/Hero";
+import About from "./sections/Homepage/About";
+import ServicesStack from "./components/ServicesScroll";
+import RevealFooter from "./sections/Homepage/RevealFooter";
+import CTA from "./sections/CTA";
+import Footer from "./components/Footer";
 export default function Home() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
+    <main>
+        <Hero/>
+        <About/>
+        <section className="pt-10 md:pt-20 pb-10 text-center relative bg-white">
+          <h3 className="text-2xl md:text-3xl mx-auto max-w-sm md:max-w-5xl font-instrument text-center">“V Dionise pristupujeme ku každému klientovi individuálne. Každá zákazka je pre nás jedinečná – a práve v tom spočíva krása našej práce. Spolu s celým tímom urobíme maximum pre to, aby sme stopercentne splnili vaše požiadavky a dodali produkt v tej najvyššej kvalite. ”</h3>
+          <p className="font-instrument text-2xl md:text-xl mt-3">Samuel  Stesňák<br /></p>
+          <span className="uppercase font-dm-mono text-black/85 text-xs">Spolumajiteľ</span>
+        </section>
+        <ServicesStack/>
+        <section className="relative min-h-[50vh] md:h-screen bg-white">
+          <div className="absolute inset-0">
+            <img
+              src="./image/home_bg_privilegios.png"
+              alt=""
+              className="w-full h-full object-cover blur-xl"
             />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
-      </main>
-    </div>
+          </div>
+
+          <div className="w-full  absolute md:justify-center bottom-1/2 translate-y-1/2 flex gap-10 z-10 overflow-x-auto pb-2">
+            <div className="w-80 h-80 shrink-0 bg-white p-4 overflow-hidden">
+              <span className="font-instrument text-6xl">01</span>
+              <h4 className="font-instrument text-3xl mb-5 mt-5">Stratégia, ktorá prináša výsledky</h4>
+              <p className="text-sm">Každý projekt začína dôkladným pochopením vášho podnikania. Navrhujeme riešenia, ktoré posilňujú vašu značku, oslovujú správnych zákazníkov a premieňajú návštevnosť na reálne obchodné príležitosti.</p>
+            </div>
+           <div className="w-80 h-80 shrink-0 bg-white p-4 overflow-hidden">
+              <span className="font-instrument text-6xl">02</span>
+              <h4 className="font-instrument text-3xl mb-5 mt-5">Kompletné kreatívne služby pod jednou strechou</h4>
+              <p className="text-sm">Tvoríme moderné webové stránky, reklamné bannery, firemnú identitu, profesionálne fotografie, videá z dronu aj marketingový obsah. Všetko navrhujeme tak, aby spolu vytváralo silnú a dôveryhodnú značku.</p>
+            </div>
+           <div className="w-80 h-80 shrink-0 bg-white p-4 overflow-hidden">
+              <span className="font-instrument text-6xl">03</span>
+              <h4 className="font-instrument text-3xl mb-5 mt-5">Partnerstvo, na ktoré sa môžete spoľahnúť</h4>
+              <p className="text-sm">Nie sme len dodávateľ. Sme partner, ktorý s vami dlhodobo spolupracuje, prináša nové nápady, reaguje na potreby vášho podnikania a pomáha vám rásť v digitálnom prostredí.</p>
+            </div>
+            <div className="w-80 h-80 shrink-0 bg-white p-4 overflow-hidden">
+              <span className="font-instrument text-6xl">04</span>
+              <h4 className="font-instrument text-3xl mb-5 mt-5">Výsledky, ktoré prichádzajú rýchlo</h4>
+              <p className="text-sm">Výsledky našej práce budú viditeľné už v priebehu niekoľkých týždňov; vytvárame produkty a riešenia navrhnuté tak, aby prinášali výsledky.</p>
+            </div>
+          </div>
+        </section>
+        <CTA></CTA>
+        <Footer></Footer>
+    </main>
   );
 }
