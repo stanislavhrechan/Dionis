@@ -8,7 +8,7 @@ type RelatedService = {
 type HeroSlugProps = {
   service: {
     title: string;
-    relatedServices?: RelatedService[];
+    relatedServices?: readonly RelatedService[];
   };
 };
 
