@@ -13,7 +13,7 @@ export default function WordWaveSection() {
     gsap.fromTo(
       words,
       {
-        y: 140,
+        y: 120,
         opacity: 0,
       },
       {
@@ -26,8 +26,8 @@ export default function WordWaveSection() {
         ease: "power3.out",
         scrollTrigger: {
           trigger: ".word-wrapper",
-          start: "top 70%",
-          end: "bottom 70%",
+          start: "top 80%",
+          end: "bottom 60%",
           scrub: 1.5,
         },
       }

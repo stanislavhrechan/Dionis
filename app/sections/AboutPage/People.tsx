@@ -83,144 +83,184 @@ export default function PeopleSection(){
 
 
     return (
+        <>
+            <section className="md:hidden px-5 py-20">
+                <div className="max-w-md mx-auto flex flex-col gap-16">
 
-        <section
-            ref={section}
-            className="
-            md:h-[300vh]
-            h-[240vh]
-            "
-        >
+                    {people.map((person, index) => (
 
-            <div
+                        <div key={person.name}>
+
+                            <div className="relative w-full aspect-[3/4] overflow-hidden">
+
+                                <Image
+                                    src={person.image}
+                                    alt={person.name}
+                                    fill
+                                    priority={index === 0}
+                                    sizes="100vw"
+                                    className="object-cover"
+                                />
+
+                            </div>
+
+                            <h3 className="mt-6 font-instrument text-3xl">
+                                {person.name}
+                            </h3>
+
+                            <p className="uppercase text-xs mb-6">
+                                {person.role}
+                            </p>
+
+                            <p className="font-instrument text-lg italic leading-relaxed">
+                                “ {person.quote} ”
+                            </p>
+
+                        </div>
+
+                    ))}
+
+                </div>
+            </section>
+
+            <section
+                ref={section}
                 className="
-                sticky
-                top-0
-                h-screen
-                flex 
-                justify-center
-                px-5
+                h-[300vh]
+                hidden
+                md:block
                 "
             >
 
                 <div
                     className="
-                    relative
-                    w-full
-                    max-w-7xl
-                    h-[760px]
-                    md:h-[700px]
-                    overflow-hidden
+                    sticky
+                    top-0
+                    h-screen
+                    flex 
+                    justify-center
+                    px-5
                     "
                 >
 
-
-                {
-                    people.map((person,index)=>(
-
-                        <div
-
-                        key={person.name}
-
-                        ref={(el)=>{
-                            if(el) cards.current[index]=el
-                        }}
-
+                    <div
                         className="
-                        absolute
-                        inset-0
-
-                        flex
-                        flex-col
-                        md:flex-row
-
-                        gap-8
-                        md:gap-20
-
-                        items-start
-                        md:items-center
-
-                        bg-white
+                        relative
+                        w-full
+                        max-w-7xl
+                        h-[760px]
+                        md:h-[700px]
+                        overflow-hidden
                         "
+                    >
 
-                        >
 
+                    {
+                        people.map((person,index)=>(
 
-                            <div className="
-                            relative
-                            w-full
-                            md:w-[340px]
-                            h-[480px]
-                            shrink-0
-                            ">
+                            <div
 
-                                <Image
-                                src={person.image}
-                                alt=""
-                                fill
-                                className="
-                                object-cover
-                                "
-                                />
+                            key={person.name}
+
+                            ref={(el)=>{
+                                if(el) cards.current[index]=el
+                            }}
+
+                            className="
+                            absolute
+                            inset-0
+
+                            flex
+                            flex-col
+                            md:flex-row
+
+                            gap-8
+                            md:gap-20
+
+                            items-start
+                            md:items-center
+
+                            bg-white
+                            "
+
+                            >
 
 
                                 <div className="
-                                absolute
-                                bottom-5
-                                left-5
-                                text-white
+                                relative
+                                w-full
+                                md:w-[340px]
+                                h-[480px]
+                                shrink-0
                                 ">
 
-                                    <h3 className="
-                                    font-instrument
-                                    text-3xl
-                                    ">
-                                        {person.name}
-                                    </h3>
+                                    <Image
+                                    src={person.image}
+                                    alt=""
+                                    fill
+                                    className="
+                                    object-cover
+                                    "
+                                    />
 
 
-                                    <p className="
-                                    uppercase
-                                    text-xs
+                                    <div className="
+                                    absolute
+                                    bottom-5
+                                    left-5
+                                    text-white
                                     ">
-                                        {person.role}
-                                    </p>
+
+                                        <h3 className="
+                                        font-instrument
+                                        text-3xl
+                                        ">
+                                            {person.name}
+                                        </h3>
+
+
+                                        <p className="
+                                        uppercase
+                                        text-xs
+                                        ">
+                                            {person.role}
+                                        </p>
+
+
+                                    </div>
 
 
                                 </div>
 
 
+
+                                <p className="
+                                font-instrument
+                                text-xl md:text-2xl
+                                leading-tight
+                                italic
+                                max-w-3xl
+                                mb-10
+                                ">
+                                    “ {person.quote} ”
+                                </p>
+
+
+
                             </div>
 
 
-
-                            <p className="
-                            font-instrument
-                            text-xl md:text-2xl
-                            leading-tight
-                            italic
-                            max-w-3xl
-                            mb-10
-                            ">
-                                “ {person.quote} ”
-                            </p>
+                        ))
+                    }
 
 
-
-                        </div>
-
-
-                    ))
-                }
-
+                    </div>
 
                 </div>
 
-            </div>
 
-
-        </section>
-
+            </section>
+        </>
     )
 
 }

@@ -44,7 +44,7 @@ export default function CTA(){
         <>
             <section ref={container} className="relative z-20 h-[80vh] overflow-hidden">
                 <img
-                src="/image/bg_cta.png"
+                src="/image/bg_cta.webp"
                 alt=""
                 className="absolute inset-0 h-full w-full object-cover parallax-img"
                 />

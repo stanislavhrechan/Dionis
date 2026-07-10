@@ -73,7 +73,7 @@ export const services = {
     },
     "sprava-socialnych-sieti": {
       title: "Správa sociálnych sietí a tvorba obsahu",
-      img: "/image/slug/web.png",
+      img: "/image/slug/siete.png",
       opis: `
       Sociálne siete sú dnes jedným z najdôležitejších miest, kde zákazníci vnímajú značku. Vytvárame profesionálny vizuálny obsah, ktorý pomáha firmám komunikovať ich hodnotu, budovať komunitu a zostať v neustálom kontakte so svojím publikom.
 
@@ -103,7 +103,7 @@ export const services = {
     "billboardy-ooh": {
     title: "Billboardy a OOH outdoor reklama",
 
-    img: "/image/slug/billboard.png",
+    img: "/image/slug/bilboardy.png",
 
     opis: `
       Outdoorová reklama patrí medzi najvýraznejšie formy komunikácie značky vo verejnom priestore. Navrhujeme vizuály, ktoré dokážu zaujať v priebehu niekoľkých sekúnd a premeniť bežný reklamný priestor na silný komunikačný prvok.
@@ -131,7 +131,7 @@ export const services = {
       "dronove-zabery-video-produkcia": {
           title: "Dronové zábery a video produkcia",
 
-          img: "/image/slug/video-production.png",
+          img: "/image/slug/dron.png",
 
           opis: `
       Profesionálne video a dronové zábery prinášajú značkám nový spôsob, ako prezentovať svoje projekty, priestory a produkty. Vďaka filmovej perspektíve dokážeme zachytiť atmosféru, rozsah a detaily spôsobom, ktorý klasická fotografia nedokáže.
@@ -167,7 +167,7 @@ export const services = {
       "marketingove-kampane": {
           title: "Úspešné marketingové kampane",
 
-          img: "/image/slug/marketing.png",
+          img: "/image/slug/skola.png",
 
           opis: `
       Úspešná marketingová kampaň nevzniká iba pekným vizuálom – vzniká kombináciou stratégie, kreativity a správne nastavenej komunikácie. Pomáhame značkám vytvárať kampane, ktoré zvyšujú povedomie, oslovujú správne publikum a prinášajú reálne obchodné výsledky.

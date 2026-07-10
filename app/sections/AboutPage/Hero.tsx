@@ -48,7 +48,7 @@ export default function Hero() {
                 <div className="flex justify-center mt-5">
                     <div className="overflow-hidden">
                         <img
-                            src="/image/about_us.png"
+                            src="/image/about_us.webp"
                             alt=""
                             className="parallax-img scale-110"
                         />

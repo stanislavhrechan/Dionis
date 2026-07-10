@@ -18,7 +18,7 @@ export default function Home() {
         <section className="relative min-h-[50vh] md:h-screen bg-white">
           <div className="absolute inset-0">
             <img
-              src="./image/home_bg_privilegios.png"
+              src="./image/home_bg_privilegios.webp"
               alt=""
               className="w-full h-full object-cover blur-xl"
             />

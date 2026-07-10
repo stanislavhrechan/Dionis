@@ -41,7 +41,7 @@ export default function ServicesStack() {
             title="Web pre developérsky projekt. Komerčné weby, firemné prezentácie a rezervačné systémy."
             description="Tvorba moderného, vizuálne atraktívneho a responzívneho webu, ktorý profesionálne prezentuje developerský projekt, podporuje predaj a premieňa návštevníkov na budúcich klientov prostredníctvom silného storytellingu, premyslenej štruktúry obsahu a intuitívneho používateľského zážitku."
             tags={['Optimalizácia', 'SEO']}
-            image="/image/works_type/web.png"
+            image="/image/works_type/web.webp"
             link="/services/web-pre-developersky-projekt"
           />
         </div>
@@ -61,7 +61,7 @@ export default function ServicesStack() {
             title="Fyzické firemné portfóliá (Knihy)"
             description="Premeníme vašu značku do podoby prémiovej tlačenej publikácie, ktorá vytvára silný prvý dojem pri osobných stretnutiach. Od kreatívneho konceptu, grafického spracovania a výberu materiálov až po finálnu tlač zabezpečíme každý detail."
             tags={["Branding", "Print", "Dizajn"]}
-            image="/image/works_type/firemne_portfolio.png"
+            image="/image/works_type/firemne_portfolio.webp"
             link="/services/fyzicke-firemne-portfolia"
           />
         </div>
@@ -71,16 +71,27 @@ export default function ServicesStack() {
             title="Úspešné marketingové kampane"
             description="Navrhujeme a realizujeme marketingové kampane, ktoré spájajú kreatívny obsah so strategickými cieľmi vašej firmy. Od prvotnej myšlienky a vizuálnej identity až po samotnú realizáciu pomáhame značkám zaujať a dosiahnuť merateľné výsledky."
             tags={["Marketing", "Stratégia"]}
-            image="/image/works_type/spolupraca.jpg"
+            image="/image/works_type/spolupraca.webp"
             link="/services/marketingove-kampane"
           />
         </div>
+
+        <div className="stack-card sticky top-0 w-full">
+          <ServiceCard
+            title="Správa sociálnych sietí (Reels & Posty)"
+            description="Každý projekt začína analýzou značky, cieľovej skupiny a komunikačných cieľov. Na základe týchto informácií pripravujeme obsahovú stratégiu, kreatívny smer a vizuálny štýl, ktorý odráža charakter firmy. Zabezpečujeme kompletný proces – od návrhu konceptov, natáčania vlastnou technikou, postprodukcie a grafického spracovania až po plánovanie a publikovanie obsahu."
+            tags={["UI/UX dizajn", "Marketingové kampane"]}
+            image="/image/works_type/siete.webp"
+            link="/services/sprava-socialnych-sieti"
+          />
+        </div>
+
         <div className="stack-card sticky top-0 w-full">
           <ServiceCard
             title="Dronové zábery a video produkcia"
             description="Vytvárame profesionálne video a letecké zábery, ktoré prinášajú dynamický pohľad na vaše projekty, priestory alebo produkty. Vďaka vlastnej technike zabezpečujeme kompletnú produkciu od natáčania až po finálny vizuálny výstup."
             tags={["Video", "Dron", "Produkcia"]}
-            image="/image/works_type/dron.jpg"
+            image="/image/works_type/dron.webp"
             link="/services/dronove-zabery-video-produkcia"
           />
         </div>
