@@ -17,7 +17,9 @@ export default function ContactForm() {
 
     const [status, setStatus] = useState("");
 
-    const handleChange = (e) => {
+    const handleChange = (
+        e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+    ) => {
         setForm({
             ...form,
             [e.target.name]: e.target.value
@@ -25,7 +27,7 @@ export default function ContactForm() {
     };
 
 
-    async function handleSubmit(e){
+    async function handleSubmit( e: React.FormEvent<HTMLFormElement>){
         e.preventDefault();
 
         setStatus("Sending...");
@@ -178,7 +180,7 @@ return (
                         value={form.message}
                         onChange={handleChange}
                         placeholder="Chcel by som..."
-                        maxLength="500"
+                        maxLength={500}
                         className="
                         w-full
                         h-30
@@ -269,15 +271,23 @@ return (
 
 }
 
-
+type InputProps = {
+    label: string;
+    name: string;
+    value: string;
+    type?: string;
+    onChange: (
+        e: React.ChangeEvent<HTMLInputElement>
+    ) => void;
+};
 
 function Input({
     label,
     name,
     value,
     onChange,
-    type="text"
-    }){
+    type = "text"
+}: InputProps){
 
     return (
 
