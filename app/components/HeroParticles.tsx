@@ -11,14 +11,20 @@ type Particle = {
 };
 
 export default function HeroParticles() {
-  const canvasRef = useRef<HTMLCanvasElement>(null);
+  const canvasRef = useRef<HTMLCanvasElement | null>(null);
 
   useEffect(() => {
-    const canvas = canvasRef.current;
-    if (!canvas) return;
+    const canvasElement = canvasRef.current;
 
-    const ctx = canvas.getContext('2d');
-    if (!ctx) return;
+    if (!canvasElement) return;
+
+    const canvas = canvasElement;
+
+    const context = canvas.getContext('2d');
+
+    if (!context) return;
+
+    const ctx = context;
 
     let width = 0;
     let height = 0;
