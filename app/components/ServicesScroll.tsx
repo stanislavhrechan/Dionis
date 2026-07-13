@@ -78,11 +78,11 @@ export default function ServicesStack() {
 
         <div className="stack-card sticky top-0 w-full">
           <ServiceCard
-            title="Správa sociálnych sietí (Reels & Posty)"
+            title="Správa sociálne média (Reels & Posty)"
             description="Každý projekt začína analýzou značky, cieľovej skupiny a komunikačných cieľov. Na základe týchto informácií pripravujeme obsahovú stratégiu, kreatívny smer a vizuálny štýl, ktorý odráža charakter firmy. Zabezpečujeme kompletný proces – od návrhu konceptov, natáčania vlastnou technikou, postprodukcie a grafického spracovania až po plánovanie a publikovanie obsahu."
             tags={["UI/UX dizajn", "Marketingové kampane"]}
             image="/image/works_type/siete.webp"
-            link="/services/sprava-socialnych-sieti"
+            link="/services/sprava-socialnych-media"
           />
         </div>
 
@@ -98,7 +98,7 @@ export default function ServicesStack() {
       </section>
       <a href="/services">
         <button className="w-full px-5 md:px-10 py-5 mb-5 bg-[#F5F2E8] text-left border-t border-t-black/15 hover:rounded-full cursor-pointer hover:bg-[#245372] hover:text-white transition duration-250">
-          <span className="font-instrument text-2xl uppercase">POzriet’ VIAC SLUžIEB</span>
+          <span className="font-instrument text-2xl uppercase">POzriet’ Všetky služby</span>
         </button>
       </a>
     </>

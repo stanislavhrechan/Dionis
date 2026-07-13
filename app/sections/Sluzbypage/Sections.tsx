@@ -46,7 +46,7 @@ export default function Sections() {
             <div className="grid grid-cols-10 mx-4 md:mx-10 gap-5">
                 <div className="relative col-span-10 md:col-span-4 group overflow-hidden w-full h-[40vh] md:h-[60vh]">
                     <a href="/services/marketingove-kampane">
-                        <div className="absolute w-full h-full ">
+                        <div className="absolute w-full h-full  transition-transform duration-700 ease-out group-hover:scale-110 cursor-pointer">
                             <img src="./image/works_type/spolupraca.webp" alt="" className="parallax-img w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-110 cursor-pointer" />
                         </div>
                         <div className="z-10 absolute bottom-5 md:bottom-10 mx-2 md:mx-4 space-y-2  cursor-pointer">
@@ -60,7 +60,7 @@ export default function Sections() {
                 </div>
                 <div className="relative col-span-10 md:col-span-6 group overflow-hidden w-full h-[40vh] md:h-[60vh]">
                     <a href="/services/web-pre-developersky-projekt">
-                        <div className="absolute w-full h-full ">
+                        <div className="absolute w-full h-full  transition-transform duration-700 ease-out group-hover:scale-110 cursor-pointer">
                             <img
                                 src="./image/works_type/web.webp"
                                 className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-110 cursor-pointer  parallax-img "
@@ -76,14 +76,14 @@ export default function Sections() {
                 </div>
             </div>
             <div className="grid grid-cols-12 mx-4 md:mx-10 gap-5 mt-5">
-                <div className="relative col-span-12 md:col-span-3 group overflow-hidden w-full h-[40vh] md:h-[60vh]">
-                    <a href="/services/sprava-socialnych-sieti">
-                        <div className="absolute w-full h-full">
-                            <img src="./image/works_type/siete.webp" alt="" className=" parallax-img  w-full h-full  object-cover transition-transform duration-700 ease-out group-hover:scale-110 cursor-pointer" />
+                <div className="relative col-span-12 md:col-span-3 group overflow-hidden w-full h-[40vh] md:h-[60vh] ">
+                    <a href="/services/sprava-socialnych-media" className="">
+                        <div className="absolute w-full h-full  transition-transform duration-700 ease-out group-hover:scale-110 cursor-pointer">
+                            <img src="./image/works_type/siete.webp" alt="" className="parallax-img  w-full h-full  object-cover" />
                         </div>
                         <div className="z-10 absolute bottom-5 md:bottom-10 mx-4 space-y-2  cursor-pointer">
                             <div className="bg-white p-1">
-                                <h3 className="font-instrument text-2xl">Správa sociálnych sietí</h3>
+                                <h3 className="font-instrument text-2xl">Správa sociálne média</h3>
                             </div>
                             <div className="bg-white p-1 text-sm max-w-md">Tvorba Reels a postov s využitím vlastnej profi techniky (kamery, drony), čo zaručuje vysokú vizuálnu úroveň bez externých dodávateľov.</div>
                         </div>
@@ -96,7 +96,7 @@ export default function Sections() {
                 </div>
                 <div className="relative col-span-12 md:col-span-6 group overflow-hidden w-full h-[40vh] md:h-[60vh]">
                     <a href="/services/fyzicke-firemne-portfolia">
-                        <div className="absolute w-full h-full">
+                        <div className="absolute w-full h-full  transition-transform duration-700 ease-out group-hover:scale-110 cursor-pointer">
                             <img src="./image/works_type/firemne_portfolio.webp" alt="" className=" parallax-img  w-full h-full  object-cover transition-transform duration-700 ease-out group-hover:scale-110 cursor-pointer" />
                         </div>
                         <div className="z-10 absolute bottom-5 md:bottom-10 mx-4 space-y-2  cursor-pointer">
@@ -111,7 +111,7 @@ export default function Sections() {
             <div className="grid grid-cols-10 mx-4 md:mx-10 gap-5 mt-5">
                 <div className="relative col-span-10 md:col-span-6 group overflow-hidden w-full h-[40vh] md:h-[60vh]">
                     <a href="/services/billboardy-ooh">
-                        <div className="absolute w-full h-full">
+                        <div className="absolute w-full h-full  transition-transform duration-700 ease-out group-hover:scale-110 cursor-pointer">
                             <img src="./image/works_type/bilboardy.png" alt="" className=" parallax-img  w-full h-full  object-cover transition-transform duration-700 ease-out group-hover:scale-110 cursor-pointer" />
                         </div>
                         <div className="z-10 absolute bottom-5 md:bottom-10 mx-4 space-y-2  cursor-pointer">
@@ -124,7 +124,7 @@ export default function Sections() {
                 </div>
                 <div className="relative col-span-10 md:col-span-4 group overflow-hidden w-full h-[40vh] md:h-[60vh]">
                     <a href="/services/dronove-zabery-video-produkcia">
-                        <div className="absolute w-full h-full">
+                        <div className="absolute w-full h-full  transition-transform duration-700 ease-out group-hover:scale-110 cursor-pointer">
                             <img src="./image/works_type/dron.webp" alt="" className=" parallax-img  w-full h-full  object-cover transition-transform duration-700 ease-out group-hover:scale-110 cursor-pointer" />
                         </div>
                         <div className="z-10 absolute bottom-5 md:bottom-10 mx-4 space-y-2  cursor-pointer">

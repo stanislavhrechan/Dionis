@@ -26,7 +26,7 @@ const people = [
     {
         name: "Tobias Lorencovič",
         role: "Spolumajiteľ",
-        image: "/image/people/Lorencovic_1.png",
+        image: "/image/people/Tobias_3.png",
         quote:
             "V Dionise pristupujeme ku každému klientovi individuálne. Každá zákazka je pre nás jedinečná – a práve v tom spočíva krása našej práce. Spolu s celým tímom urobíme maximum pre to, aby sme stopercentne splnili vaše požiadavky a dodali produkt v tej najvyššej kvalite.",
     },

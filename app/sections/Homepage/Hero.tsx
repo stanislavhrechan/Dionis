@@ -1,5 +1,7 @@
 import HeroParticles from "@/app/components/HeroParticles";
 import GlowButton from "@/app/components/HoverButton";
+import Marquee from "react-fast-marquee";
+
 export default function Hero() {
     return (
         <>
@@ -37,25 +39,30 @@ export default function Hero() {
 
         </section>
 
-        <section>
-            <div className="flex gap-2 mt-5 md:mt-5 mx-4 md:mx-10 items-center">
-                <span className="font-dm-mono uppercase text-xs md:text-sm text-black/85 text-center md:text-left">Spoločnosti, ktoré nám dôverujú a aktívne s nami spolupracujú</span>
-                <div className="h-[0.8px] flex-1 bg-black/15"></div>
+        <section className="py-10 overflow-hidden">
+            <div className="flex gap-2 mx-4 md:mx-10 items-center mb-8">
+                <span className="font-dm-mono uppercase text-xs md:text-sm text-black/85 whitespace-nowrap">
+                    Spoločnosti, ktoré nám dôverujú a aktívne s nami spolupracujú
+                </span>
+                <div className="h-px flex-1 bg-black/15"></div>
             </div>
-            <div className="flex justify-start mx-4 md:mx-10 my-5 md:my-10 items-center gap-6 md:gap-20">
-                <div className="">
-                    <img src="/image/company_who_trust/benard.svg" alt="" className="w-30 opacity-80"/>
-                </div>
-                <div className="">
-                    <img src="/image/company_who_trust/sportova-hala.svg" alt="" className="w-12 opacity-80"/>
-                </div>
-                <div className="">
-                    <img src="/image/company_who_trust/camasatra.svg" alt="" className="w-30 opacity-80"/>
-                </div>
-                <div className="">
-                    <img src="/image/company_who_trust/phodem.svg" alt="" className="w-16 opacity-80"/>
-                </div>
-            </div>
+
+            <Marquee
+                speed={35}
+                gradient
+                gradientColor="#fff"
+                gradientWidth={120}
+                autoFill
+            >
+
+                <img src="/image/company_who_trust/benard.svg" className="h-11 mx-10 opacity-80" />
+                <img src="/image/company_who_trust/sportova-hala.svg" className="h-12 mx-10 opacity-80" />
+                <img src="/image/company_who_trust/camasatra.svg" className="h-8 mx-10 opacity-80" />
+                <img src="/image/company_who_trust/phodem.svg" className="h-12 mx-10 opacity-80" />
+                <img src="/image/company_who_trust/cistota.png" className="h-24 mx-10 opacity-80" />
+                <img src="/image/company_who_trust/tatra.png" className="h-24 mx-10 opacity-80" />
+
+            </Marquee>
         </section>
         </>
     );

@@ -50,6 +50,7 @@ export default function Header() {
               <div className="flex gap-8">
                 <AnimatedLink href="/services">Služby</AnimatedLink>
                 <AnimatedLink href="/about">O nás</AnimatedLink>
+                <AnimatedLink href="/contact">Kontakt</AnimatedLink>
               </div>
             </nav>
 
