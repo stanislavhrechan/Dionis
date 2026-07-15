@@ -46,7 +46,12 @@ export default function CTA(){
                 <img
                 src="/image/bg_cta.webp"
                 alt=""
-                className="absolute inset-0 h-full w-full object-cover parallax-img"
+                className="md:absolute inset-0 hidden h-full w-full object-cover parallax-img"
+                />
+                <img
+                src="/image/bg_cta_mobile.png"
+                alt=""
+                className="absolute md:hidden inset-0 h-full w-full object-cover object-right parallax-img"
                 />
                 <div className="absolute inset-0 bg-[linear-gradient(253.74deg,rgba(52,52,198,0.26)_33.45%,rgba(149,169,219,0.26)_100.02%)]"></div>
                 <WordWaveSection/>
@@ -57,9 +62,9 @@ export default function CTA(){
                     </p>
                     <span className="font-instrument italic text-md">-Samuel Stesňák, Maxim Troščák, Tobias Lorencovič</span>
                     <img
-                    src="/image/logo_cta.svg"
-                    alt=""
-                    className="w-20"
+                        src="/image/logo_cta.svg"
+                        alt=""
+                        className="w-20"
                     />
                 </div>
                 <div className="">

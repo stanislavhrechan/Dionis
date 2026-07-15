@@ -36,7 +36,7 @@ export default function WordWaveSection() {
 
   return (
     <>
-      <div className="relative z-10 flex h-full pt-10 justify-between px-4 md:px-10 uppercase text-6xl md:text-7xl font-instrument text-white md:hidden">
+      <div className="relative z-10 flex h-full pt-10 justify-between px-4 md:px-10 uppercase text-5xl md:text-7xl font-instrument text-white md:hidden">
         <span>Pre všetkých našich klientov</span>
       </div>
 
