@@ -46,7 +46,7 @@ export default function CTA(){
                 <img
                 src="/image/bg_cta.webp"
                 alt=""
-                className="md:absolute inset-0 hidden h-full w-full object-cover parallax-img"
+                className="absolute inset-0 hidden md:block h-full w-full object-cover parallax-img"
                 />
                 <img
                 src="/image/bg_cta_mobile.png"
