@@ -40,7 +40,7 @@ export default function Header() {
             <div className="flex gap-2 items-center mb-3">
               
                 <img src="../image/logo.svg" alt="" className="w-9"/>
-                <span className="font-instrument text-2xl font-bold">DIONIS</span>
+                <span className="text-2xl text-[#002F4D] font-bold">DIONIS</span>
             </div>
           </a>
           {/* Desktop */}

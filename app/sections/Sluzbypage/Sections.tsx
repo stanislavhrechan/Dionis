@@ -83,7 +83,7 @@ export default function Sections() {
                         </div>
                         <div className="z-10 absolute bottom-5 md:bottom-10 mx-4 space-y-2  cursor-pointer">
                             <div className="bg-white p-1">
-                                <h3 className="font-instrument text-2xl">Správa sociálne média</h3>
+                                <h3 className="font-instrument text-2xl">Správa sociálnych médií</h3>
                             </div>
                             <div className="bg-white p-1 text-sm max-w-md">Tvorba Reels a postov s využitím vlastnej profi techniky (kamery, drony), čo zaručuje vysokú vizuálnu úroveň bez externých dodávateľov.</div>
                         </div>

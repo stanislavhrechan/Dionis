@@ -72,7 +72,7 @@ export const services = {
           ],
     },
     "sprava-socialnych-media": {
-      title: "Správa sociálne média a tvorba obsahu",
+      title: "Správa sociálnych médií a tvorba obsahu",
       img: "/image/slug/siete.png",
       opis: `
       Sociálne siete sú dnes jedným z najdôležitejších miest, kde zákazníci vnímajú značku. Vytvárame profesionálny vizuálny obsah, ktorý pomáha firmám komunikovať ich hodnotu, budovať komunitu a zostať v neustálom kontakte so svojím publikom.

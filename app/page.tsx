@@ -23,24 +23,24 @@ export default function Home() {
               className="w-full h-full object-cover blur-xl"
             />
           </div>
-
           <div className="w-full  absolute md:justify-center bottom-1/2 translate-y-1/2 flex gap-10 z-10 overflow-x-auto pb-2">
-            <div className="w-80 h-80 shrink-0 bg-white p-4 overflow-hidden">
+
+            <div className="w-80 h-80 shrink-0 bg-white p-4 overflow-hidden transition-transform duration-700 ease-out hover:scale-90">
               <span className="font-instrument text-6xl">01</span>
               <h4 className="font-instrument text-3xl mb-5 mt-5">Stratégia, ktorá prináša výsledky</h4>
               <p className="text-sm">Každý projekt začína dôkladným pochopením vášho podnikania. Navrhujeme riešenia, ktoré posilňujú vašu značku, oslovujú správnych zákazníkov a premieňajú návštevnosť na reálne obchodné príležitosti.</p>
             </div>
-           <div className="w-80 h-80 shrink-0 bg-white p-4 overflow-hidden">
+           <div className="w-80 h-80 shrink-0 bg-white p-4 overflow-hidden transition-transform duration-700 ease-out hover:scale-90">
               <span className="font-instrument text-6xl">02</span>
               <h4 className="font-instrument text-3xl mb-5 mt-5">Kompletné kreatívne služby pod jednou strechou</h4>
               <p className="text-sm">Tvoríme moderné webové stránky, reklamné bannery, firemnú identitu, profesionálne fotografie, videá z dronu aj marketingový obsah. Všetko navrhujeme tak, aby spolu vytváralo silnú a dôveryhodnú značku.</p>
             </div>
-           <div className="w-80 h-80 shrink-0 bg-white p-4 overflow-hidden">
+           <div className="w-80 h-80 shrink-0 bg-white p-4 overflow-hidden transition-transform duration-700 ease-out hover:scale-90">
               <span className="font-instrument text-6xl">03</span>
               <h4 className="font-instrument text-3xl mb-5 mt-5">Partnerstvo, na ktoré sa môžete spoľahnúť</h4>
               <p className="text-sm">Nie sme len dodávateľ. Sme partner, ktorý s vami dlhodobo spolupracuje, prináša nové nápady, reaguje na potreby vášho podnikania a pomáha vám rásť v digitálnom prostredí.</p>
             </div>
-            <div className="w-80 h-80 shrink-0 bg-white p-4 overflow-hidden">
+            <div className="w-80 h-80 shrink-0 bg-white p-4 overflow-hidden transition-transform duration-700 ease-out hover:scale-90">
               <span className="font-instrument text-6xl">04</span>
               <h4 className="font-instrument text-3xl mb-5 mt-5">Výsledky, ktoré prichádzajú rýchlo</h4>
               <p className="text-sm">Výsledky našej práce budú viditeľné už v priebehu niekoľkých týždňov; vytvárame produkty a riešenia navrhnuté tak, aby prinášali výsledky.</p>

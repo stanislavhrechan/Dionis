@@ -17,12 +17,15 @@ export default function ServiceCard({
 }: ServiceCardProps) {
   return (
     <section className="relative w-full bg-[#EBEBEB] border-t border-t-black/35 overflow-hidden">
-      <div className="grid grid-cols-1 md:grid-cols-[350px_1fr] gap-5 md:gap-10 p-5 md:p-10 min-h-[500px] bg-white">
-        <div className="relative overflow-hidde h-full">
+      <div className="grid grid-cols-1 md:grid-cols-[350px_1fr] gap-5 md:gap-10 p-5 md:p-10 min-h-[500px] bg-white group">
+        <div className="relative overflow-hidde h-full  ">
           <img
             src={image}
             alt={title}
-            className="w-full h-full object-cover"
+            className="w-full h-full object-cover transition-transform
+            duration-700
+            ease-out
+            group-hover:scale-90"
           />
         </div>
         <div className="flex flex-col md:flex-row justify-between items-start">

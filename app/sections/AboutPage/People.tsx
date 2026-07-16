@@ -26,9 +26,9 @@ const people = [
     {
         name: "Tobias Lorencovič",
         role: "Spolumajiteľ",
-        image: "/image/people/Tobias_3.png",
+        image: "/image/people/Lorencovic.png",
         quote:
-            "V Dionise pristupujeme ku každému klientovi individuálne. Každá zákazka je pre nás jedinečná – a práve v tom spočíva krása našej práce. Spolu s celým tímom urobíme maximum pre to, aby sme stopercentne splnili vaše požiadavky a dodali produkt v tej najvyššej kvalite.",
+            "Robíme veci, ktoré dávajú zmysel. Počúvame, premýšľame a tvoríme tak, aby výsledok stál za to – nielen na prvý pohľad, ale aj o mesiace neskôr. Každý projekt je pre nás príležitosť ukázať, že kvalitná práca a osobný prístup stále niečo znamenajú. Veríme, že najlepšie výsledky vznikajú vtedy, keď si s klientom rozumieme a ťaháme za jeden povraz. Ďakujeme všetkým, ktorí nám dôverujú – je to pre nás motivácia robiť veci ešte lepšie.",
     },
 ];
 

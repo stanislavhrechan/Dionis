@@ -51,7 +51,7 @@ export default function ServicesStack() {
             title="Billboardy a OOH (Outdoor) reklama. Firemné tričká."
             description="Od kreatívneho konceptu a zachytenia podkladov vlastnou technikou až po technickú prípravu pre bezchybnú veľkoformátovú tlač. Vytvárame vizuály pre billboardy a OOH (outdoor) reklamu, ktoré upútajú pozornosť v mestskom priestore a posilnia vašu značku. Zabezpečujeme aj návrh a spracovanie firemných tričiek a merchu, ktorý reprezentuje identitu vašej spoločnosti v jednotnom vizuálnom štýle."
             tags={["Vysoko kvalitná grafika"]}
-            image="/image/works_type/bilboardy.png"
+            image="/image/works_type/benard.png"
             link="/services/billboardy-ooh"
           />
         </div>
@@ -78,7 +78,7 @@ export default function ServicesStack() {
 
         <div className="stack-card sticky top-0 w-full">
           <ServiceCard
-            title="Správa sociálne média (Reels & Posty)"
+            title="Správa sociálnych médií"
             description="Každý projekt začína analýzou značky, cieľovej skupiny a komunikačných cieľov. Na základe týchto informácií pripravujeme obsahovú stratégiu, kreatívny smer a vizuálny štýl, ktorý odráža charakter firmy. Zabezpečujeme kompletný proces – od návrhu konceptov, natáčania vlastnou technikou, postprodukcie a grafického spracovania až po plánovanie a publikovanie obsahu."
             tags={["UI/UX dizajn", "Marketingové kampane"]}
             image="/image/works_type/siete.webp"

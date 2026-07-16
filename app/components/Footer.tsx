@@ -12,7 +12,7 @@ export default function Footer() {
                         <div className="flex md:flex-row flex-col gap-2 md:gap-20">
                             <ul className="space-y-2 text-sm uppercase font-instrument text-xl">
                             <li><AnimatedLink href="/services/fyzicke-firemne-portfolia">Fyzické firemné portfóliá</AnimatedLink></li>
-                            <li><AnimatedLink href="/services/sprava-socialnych-sieti">Správa sociálnych sietí</AnimatedLink></li>
+                            <li><AnimatedLink href="/services/sprava-socialnych-sieti">Správa sociálnych médií</AnimatedLink></li>
                             <li><AnimatedLink href="/services/web-pre-developersky-projekt">Web tvorba na mieru</AnimatedLink></li>
                             <li><AnimatedLink href="/services/billboardy-ooh">Billboardy a OOH reklama</AnimatedLink></li>
                             </ul>
@@ -76,7 +76,7 @@ export default function Footer() {
                         <span className="text-sm  text-white text-[13px]">2026 Dionis. Všetky práva vyhradené.</span>
                     </div>
                     <div className="flex md:justify-end">
-                        <span className="text-sm  text-white text-[13px]">Created By Stanislav Hrechan</span>
+                        <span className="text-sm  text-white text-[13px]">Created By Dionis</span>
                     </div>
                 </div>
             </div>
