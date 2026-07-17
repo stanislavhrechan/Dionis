@@ -91,7 +91,7 @@ export default function Sections() {
                 </div>
                 <div className="col-span-12 md:col-span-3 flex justify-center items-center h-[20vh] md:h-[60vh]">
                     <span className="text-center font-instrument text-3xl md:text-4xl uppercase">
-                        Príbehy našich klientov vzbudili medzi zákazníkmi záujem a priniesli im dobré výsledky.
+                        Príbehy našich klientov vzbudili medzi zákazníkmi záujem a priniesli im excelentné výsledky.
                     </span>
                 </div>
                 <div className="relative col-span-12 md:col-span-6 group overflow-hidden w-full h-[40vh] md:h-[60vh]">

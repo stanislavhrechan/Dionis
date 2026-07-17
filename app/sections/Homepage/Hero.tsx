@@ -39,7 +39,7 @@ export default function Hero() {
 
         </section>
 
-        <section className="py-10 overflow-hidden">
+        <section className="py-5 md:py-10 overflow-hidden">
             <div className="flex gap-2 mx-4 md:mx-10 items-center mb-8">
                 <span className="font-dm-mono uppercase text-xs md:text-sm text-black/85 whitespace-nowrap">
                     Spoločnosti, ktoré nám dôverujú a aktívne s nami spolupracujú

@@ -2,7 +2,7 @@ import GlowButton from "@/app/components/HoverButton";
 export default function About() {
     return(
         <>
-            <section className="bg-white pt-10 md:pt-20">
+            <section className="bg-white md:pt-20">
                 <div className="md:mx-10 flex flex-col md:flex-row justify-between ">
                     <div className="mx-4 flex flex-col justify-around">
                         <div className="w-full">
@@ -16,7 +16,7 @@ export default function About() {
                                         mt-5 mb-5 md:mb-0 px-8 py-2 text-xl md:text-xl rounded-full bg-[#245372]/80 hover:bg-[#245372] transition text-white uppercase font-instrument cursor-pointer
                                     "
                                     >
-                                    Ozvite sa nÁm
+                                    Prečítajte si o nás
                                 </GlowButton>
                             </a>
                         </div>

@@ -51,13 +51,13 @@ export default function CTA(){
                 <img
                 src="/image/bg_cta_mobile.png"
                 alt=""
-                className="absolute md:hidden inset-0 h-full w-full object-cover object-right parallax-img"
+                className="absolute md:hidden inset-0 h-full w-full parallax-img"
                 />
                 <div className="absolute inset-0 bg-[linear-gradient(253.74deg,rgba(52,52,198,0.26)_33.45%,rgba(149,169,219,0.26)_100.02%)]"></div>
                 <WordWaveSection/>
                 <div className="absolute inset-0 flex md:flex-row flex-col justify-end md:justify-between md:items-end z-10 p-4 md:p-10 text-white">
                 <div className="space-y-2">
-                    <p className="md:max-w-md font-instrument text-2xl">
+                    <p className="md:max-w-md font-instrument text-2xl mb-5">
                     Ďakujeme za vašu dôveru. Je pre nás záväzkom neustále posúvať hranice a prinášať výsledky, na ktoré môžeme byť spoločne hrdí.
                     </p>
                     <span className="font-instrument italic text-md">-Samuel Stesňák, Maxim Troščák, Tobias Lorencovič</span>

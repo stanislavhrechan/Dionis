@@ -144,24 +144,6 @@ return (
                     onChange={handleChange}
                 />
             </div>
-
-
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-x-5 gap-y-5">
-                <Input 
-                    label="Názov spoločnosti"
-                    name="company"
-                    value={form.company}
-                    onChange={handleChange}
-                />
-
-
-                <Input 
-                    label="Webová stránka spoločnosti"
-                    name="website"
-                    value={form.website}
-                    onChange={handleChange}
-                />
-            </div>
             <div className="my-5">
                 <label className="text-2xl font-instrument">
                     Zadanie/Požiadavka
