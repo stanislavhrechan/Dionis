@@ -8,9 +8,6 @@ export default function ContactForm() {
         firstName: "",
         lastName: "",
         email: "",
-        company: "",
-        website: "",
-        budget: "",
         message: "",
         source: ""
     });
@@ -40,21 +37,18 @@ export default function ContactForm() {
             body:JSON.stringify(form)
         });
 
-
-        if(res.ok){
-            setStatus("Message sent!");
+        const data = await res.json();
+        if (res.ok) {
+            setStatus(data.message);
             setForm({
-                firstName:"",
-                lastName:"",
-                email:"",
-                company:"",
-                website:"",
-                budget:"",
-                message:"",
-                source:""
+                firstName: "",
+                lastName: "",
+                email: "",
+                message: "",
+                source: "",
             });
         } else {
-            setStatus("Something went wrong");
+            setStatus(data.error);
         }
     }
 
@@ -290,12 +284,6 @@ function Input({
                         :
                     label==="Priezvisko"
                         ? "napr. Cernak"
-                        :
-                    label==="Názov spoločnosti"
-                    ? "napr. Company"
-                        :
-                    label==="Webová stránka spoločnosti"
-                        ? "napr. company.com"
                         :
                         ""
                     }

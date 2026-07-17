@@ -1,10 +1,9 @@
-import { error } from "console";
 import nodemailer from "nodemailer";
 
 export async function POST(req: Request) {
     try {
-        const {name, email, message } = await req.json();
-        if(!name || !email || !message) {
+        const {firstName, lastName, email, message } = await req.json();
+        if(!firstName || !lastName || !email || !message) {
             return new Response(
                 JSON.stringify({error: "All fields are required"}),
                 {status: 400}
@@ -21,13 +20,21 @@ export async function POST(req: Request) {
         });
 
         await transporter.sendMail({
-            from: email,
+            from: `"Dionis Contact Form" <${process.env.EMAIL_USER}>`,
+            replyTo: email,
             to: process.env.EMAIL_TO,
-            subject: `New contact from ${name}`,
-            text: message,
-            html: `<p><strong>Name:</strong> ${name}</p>
-                    <p><strong>Email:</strong> ${email}</p>
-                    <p><strong>Message:</strong><br/>${message}</p>`,
+            subject: `New contact from ${firstName} ${lastName}`,
+            text: `
+        Name: ${firstName} ${lastName}
+        Email: ${email}
+
+        ${message}
+        `,
+            html: `
+                <p><strong>Name:</strong> ${firstName} ${lastName}</p>
+                <p><strong>Email:</strong> ${email}</p>
+                <p><strong>Message:</strong><br>${message}</p>
+            `,
         });
 
         return new Response(
