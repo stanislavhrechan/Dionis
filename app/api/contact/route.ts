@@ -5,7 +5,7 @@ export async function POST(req: Request) {
         const {firstName, lastName, email, message } = await req.json();
         if(!firstName || !lastName || !email || !message) {
             return new Response(
-                JSON.stringify({error: "All fields are required"}),
+                JSON.stringify({error: "Všetky polia sú povinné."}),
                 {status: 400}
             );
         }
@@ -15,31 +15,31 @@ export async function POST(req: Request) {
             port: 465,
             secure: true,
             auth: {
-                user: 'network.stanislav@gmail.com',
-                pass: 'miwwabqsafvcsqup',
+                user: process.env.EMAIL_USER,
+                pass: process.env.EMAIL_PASS,
             },
         });
 
         await transporter.sendMail({
-            from: `"Dionis Contact Form" <${process.env.EMAIL_USER}>`,
+            from: `"Kontaktný formulár Dionis" <${process.env.EMAIL_USER}>`,
             replyTo: email,
-            to: 'network.stanislav@gmail.com',
-            subject: `New contact from ${firstName} ${lastName}`,
+            to: process.env.EMAIL_TO,
+            subject: `Nový kontakt od ${firstName} ${lastName}`,
             text: `
-        Name: ${firstName} ${lastName}
-        Email: ${email}
+        Meno: ${firstName} ${lastName}
+        E-mail: ${email}
 
         ${message}
         `,
             html: `
-                <p><strong>Name:</strong> ${firstName} ${lastName}</p>
-                <p><strong>Email:</strong> ${email}</p>
-                <p><strong>Message:</strong><br>${message}</p>
+                <p><strong>Meno:</strong> ${firstName} ${lastName}</p>
+                <p><strong>E-mail:</strong> ${email}</p>
+                <p><strong>Správa:</strong><br>${message}</p>
             `,
         });
 
         return new Response(
-        JSON.stringify({ message: "Email sent successfully" }),
+        JSON.stringify({ message: "E-mail bol úspešne odoslaný" }),
         { status: 200 }
         );
     } catch (err: any) {
@@ -47,7 +47,7 @@ export async function POST(req: Request) {
 
         return Response.json(
             {
-            error: err?.message || "Failed to send email",
+            error: err?.message || "Nepodarilo sa odoslať e-mail",
             },
             { status: 500 }
         );
