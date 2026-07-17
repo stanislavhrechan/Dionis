@@ -9,7 +9,6 @@ export default function ContactForm() {
         lastName: "",
         email: "",
         message: "",
-        source: ""
     });
 
     const [status, setStatus] = useState("");
@@ -45,7 +44,6 @@ export default function ContactForm() {
                 lastName: "",
                 email: "",
                 message: "",
-                source: "",
             });
         } else {
             setStatus(data.error);

@@ -41,11 +41,14 @@ export async function POST(req: Request) {
         JSON.stringify({ message: "Email sent successfully" }),
         { status: 200 }
         );
-    } catch(err) {
-        console.error(err);
-        return new Response(
-            JSON.stringify({error: "Failed to send email"}),
-            {status: 500}
+    } catch (err: any) {
+        console.error("EMAIL ERROR:", err);
+
+        return Response.json(
+            {
+            error: err?.message || "Failed to send email",
+            },
+            { status: 500 }
         );
     }
 
