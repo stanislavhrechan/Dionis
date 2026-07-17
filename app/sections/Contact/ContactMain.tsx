@@ -169,13 +169,14 @@ return (
             </div>
             
 
-            <GlowButton
+            <button
+                type="submit"
                 className="
                     md:mt-4 px-8 py-2 md:text-xl w-full rounded-full bg-[#245372] text-white uppercase font-instrument cursor-pointer col-span-2
                 "
                 >
                     Poslať správu
-            </GlowButton>
+            </button>
             <p className="col-span-2">
                 {status}
             </p>
