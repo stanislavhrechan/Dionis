@@ -26,26 +26,42 @@ const dmMono = DM_Mono({
 
 export const metadata: Metadata = {
   title: "Dionis | Digitálny marketing na Slovensku",
-  description: "Digitálny marketing ktorý podporuje rast vášho podnikania. Pomáhame firmám zvyšovať viditeľnosť, získavať nových zákazníkov a budovať silnú značku pomocou efektívnych marketingových stratégií.",
-  keywords: ["create website", "tvorba stranok", "web development", "frontend", "Stanislav Hrechan"],
+  description:
+    "Digitálny marketing ktorý podporuje rast vášho podnikania. Pomáhame firmám zvyšovať viditeľnosť, získavať nových zákazníkov a budovať silnú značku pomocou efektívnych marketingových stratégií.",
+
+  keywords: [
+    "digitálny marketing",
+    "marketing Slovensko",
+    "tvorba web stránok",
+    "web development",
+    "frontend",
+    "Dionis",
+  ],
+
   openGraph: {
     title: "Dionis | Digitálny marketing na Slovensku",
-    description: "Digitálny marketing ktorý podporuje rast vášho podnikania. Pomáhame firmám zvyšovať viditeľnosť, získavať nových zákazníkov a budovať silnú značku pomocou efektívnych marketingových stratégií.",
-    url: "hhttps://dionis.sk",
+    description:
+      "Digitálny marketing ktorý podporuje rast vášho podnikania. Pomáhame firmám zvyšovať viditeľnosť, získavať nových zákazníkov a budovať silnú značku pomocou efektívnych marketingových stratégií.",
+
+    url: "https://dionis.sk",
     type: "website",
-    locale: "en_SK",
-    siteName: "Dionis | Digitálny marketing na Slovensku",
+    locale: "sk_SK",
+    siteName: "Dionis",
+
     images: [
       {
-        url: "./public/image/bg_cta.png",
+        url: "https://dionis.sk/image/bg_cta.png",
         width: 1200,
         height: 630,
-        alt: "Dionis.sk",
+        alt: "Dionis digitálny marketing",
       },
     ],
   },
+
   viewport: "width=device-width, initial-scale=1",
+
   themeColor: "#002F4D",
+
   robots: {
     index: true,
     follow: true,
@@ -54,6 +70,7 @@ export const metadata: Metadata = {
       follow: true,
     },
   },
+
   icons: {
     icon: "/favicon.ico",
   },
