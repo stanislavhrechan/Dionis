@@ -15,15 +15,15 @@ export async function POST(req: Request) {
             port: 465,
             secure: true,
             auth: {
-                user: process.env.EMAIL_USER,
-                pass: process.env.EMAIL_PASS,
+                user: 'network.stanislav@gmail.com',
+                pass: 'miwwabqsafvcsqup',
             },
         });
 
         await transporter.sendMail({
-            from: `"Kontaktný formulár Dionis" <${process.env.EMAIL_USER}>`,
+            from: `"Kontaktný formulár Dionis" <network.stanislav@gmail.com>`,
             replyTo: email,
-            to: process.env.EMAIL_TO,
+            to: 'network.stanislav@gmail.com',
             subject: `Nový kontakt od ${firstName} ${lastName}`,
             text: `
         Meno: ${firstName} ${lastName}
