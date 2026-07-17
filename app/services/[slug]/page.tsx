@@ -3,11 +3,19 @@ import { services } from "../services";
 import HeroSlug from "@/app/sections/Sluzbypage/HeroSlug";
 import Footer from "@/app/components/Footer";
 import CTA from "@/app/sections/CTA";
+
+export async function generateStaticParams() {
+  return Object.keys(services).map((slug) => ({
+    slug,
+  }));
+}
+
 type Props = {
   params: Promise<{
     slug: string;
   }>;
 };
+
 
 export default async function ServicePage({ params }: Props) {
   const { slug } = await params;
