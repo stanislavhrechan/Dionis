@@ -25,7 +25,7 @@ export default function Contact() {
 
             <a
               href="tel:+421919084501"
-              className="uppercase text-md md:mt-6 font-mono underline"
+              className="uppercase text-lg md:mt-6 font-mono underline"
             >
               +421 919 084 501
             </a>
@@ -48,7 +48,7 @@ export default function Contact() {
 
             <a
               href="tel:+421944496743"
-              className="uppercase text-md md:mt-12 font-mono underline"
+              className="uppercase text-lg md:mt-13 font-mono underline"
             >
               +421 944 496 743
             </a>
@@ -72,7 +72,7 @@ export default function Contact() {
 
             <a
               href="tel:+421902799715"
-              className="uppercase text-md mt-2 font-mono underline"
+              className="uppercase text-lg mt-2 font-mono underline"
             >
               +421 902 799 715
             </a>

@@ -49,7 +49,7 @@ export default function CTA(){
                 className="absolute inset-0 hidden md:block h-full w-full object-cover parallax-img"
                 />
                 <img
-                src="/image/bg_cta_mobile.png"
+                src="/image/bga_test_mobile_3.png"
                 alt=""
                 className="absolute md:hidden inset-0 h-full w-full parallax-img"
                 />
