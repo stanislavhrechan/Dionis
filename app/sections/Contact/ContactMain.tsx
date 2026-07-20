@@ -213,13 +213,15 @@ return (
                 Majte prehľad o novinkách v oblasti marketingu.
             </p>
             <div className="">
-                <GlowButton
-                className="
-                    mt-4 px-4 md:px-8 py-1 md:text-xl rounded-full bg-[#f1ede3] text-black uppercase font-instrument cursor-pointer
-                "
-                >
-                    Instagram
-                </GlowButton>
+                <a href="https://www.instagram.com/dionis.marketing?igsh=OXp6ZDkzbnh0dHcy">
+                    <button
+                    className="
+                        mt-4 px-4 md:px-8 py-1 md:text-xl rounded-full bg-[#f1ede3] text-black uppercase font-instrument cursor-pointer
+                    "
+                    >
+                        Instagram
+                    </button>
+                </a>
             </div>
         </div>
     </div>
