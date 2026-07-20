@@ -125,7 +125,7 @@ export default function Sections() {
                 <div className="relative col-span-10 md:col-span-4 group overflow-hidden w-full h-[40vh] md:h-[60vh]">
                     <a href="/services/dronove-zabery-video-produkcia">
                         <div className="absolute w-full h-full  transition-transform duration-700 ease-out group-hover:scale-110 cursor-pointer">
-                            <img src="./image/works_type/dron.webp" alt="" className=" parallax-img  w-full h-full  object-cover transition-transform duration-700 ease-out group-hover:scale-110 cursor-pointer" />
+                            <img src="./image/works_type/dron.jpg" alt="" className=" parallax-img  w-full h-full  object-cover transition-transform duration-700 ease-out group-hover:scale-110 cursor-pointer" />
                         </div>
                         <div className="z-10 absolute bottom-5 md:bottom-10 mx-4 space-y-2  cursor-pointer">
                             <div className="bg-white p-1">

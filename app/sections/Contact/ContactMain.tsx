@@ -278,13 +278,13 @@ function Input({
 
                 placeholder={
                     label==="Váš e-mail"
-                        ? "napr. samuel@mail.com"
+                        ? "samuel@mail.com"
                         : 
                     label==="Krstné meno"
-                        ? "napr. Samuel"
+                        ? "Samuel"
                         :
                     label==="Priezvisko"
-                        ? "napr. Cernak"
+                        ? "Cernak"
                         :
                         ""
                     }

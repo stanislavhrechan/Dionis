@@ -91,7 +91,7 @@ export default function ServicesStack() {
             title="Dronové zábery a video produkcia"
             description="Vytvárame profesionálne video a letecké zábery, ktoré prinášajú dynamický pohľad na vaše projekty, priestory alebo produkty. "
             tags={["Video", "Dron", "Produkcia"]}
-            image="/image/works_type/dron.webp"
+            image="/image/works_type/dron.jpg"
             link="/services/dronove-zabery-video-produkcia"
           />
         </div>
