@@ -146,7 +146,6 @@ return (
                         name="message"
                         value={form.message}
                         onChange={handleChange}
-                        placeholder="Chcel by som..."
                         maxLength={500}
                         className="
                         w-full
@@ -275,19 +274,6 @@ function Input({
                     outline-none
                     placeholder:text-gray-400
                 "
-
-                placeholder={
-                    label==="Váš e-mail"
-                        ? "samuel@mail.com"
-                        : 
-                    label==="Krstné meno"
-                        ? "Samuel"
-                        :
-                    label==="Priezvisko"
-                        ? "Cernak"
-                        :
-                        ""
-                    }
             />
         </div>
     )
