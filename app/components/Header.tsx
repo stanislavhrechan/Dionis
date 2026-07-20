@@ -208,17 +208,17 @@ export default function Header() {
 
             <div className="mt-14 border-t border-black/10 pt-5">
 
-              <p className="uppercase text-xs tracking-[0.2em] text-black/40 mb-6">
+              <p className="uppercase text-xs tracking-[0.2em] text-black/40 mb-2">
                 Kontakt
               </p>
 
-              <div className="flex gap-6 mt-4 uppercase text-sm">
-                <a href="#">Instagram</a>
+              <div className="flex flex-col gap-2 mt-2 uppercase text-sm">
+                <a href="https://www.instagram.com/dionis.marketing?igsh=OXp6ZDkzbnh0dHcy" className="uppercase">Instagram</a>
                 <a
                   href="mailto:info@dionis.sk"
                   className="block text-sm hover:opacity-60 transition"
                 >
-                  info@dionis.sk
+                  <span className="text-black/85 text-xs">e-mail: </span> info@dionis.sk
                 </a>
               </div>
 

@@ -2,7 +2,7 @@ export default function Privilegios() {
     return (
         <>
             <section className="relative mt-10 flex flex-col mx-4 md:mx-10">
-                <h2 className="font-instrument text-3xl md:text-5xl uppercase mt-15 max-w-3xl">
+                <h2 className="font-instrument text-2xl md:text-5xl uppercase mt-15 max-w-3xl">
                     Zásady klienta, ktoré<br />formujú každé naše rozhodnutie
                 </h2>
                 <div className="flex flex-col md:flex-row justify-between w-full md:mt-10">

@@ -49,9 +49,9 @@ export default function CTA(){
                 className="absolute inset-0 hidden md:block h-full w-full object-cover parallax-img"
                 />
                 <img
-                src="/image/bga_test_mobile_3.png"
+                src="/image/logo.svg"
                 alt=""
-                className="absolute md:hidden inset-0 h-full w-full parallax-img"
+                className="absolute md:hidden left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 parallax-img"
                 />
                 <div className="absolute inset-0 bg-[linear-gradient(253.74deg,rgba(52,52,198,0.26)_33.45%,rgba(149,169,219,0.26)_100.02%)]"></div>
                 <WordWaveSection/>

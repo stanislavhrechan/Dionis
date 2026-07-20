@@ -10,8 +10,8 @@ export default function Home() {
         <Hero/>
         <About/>
         <section className="pt-10 md:pt-20 pb-10 text-center relative bg-white">
-          <h3 className="text-2xl md:text-3xl mx-auto max-w-sm md:max-w-5xl font-instrument text-center">“V Dionise pristupujeme ku každému klientovi individuálne. Každá zákazka je pre nás jedinečná – a práve v tom spočíva krása našej práce. Spolu s celým tímom urobíme maximum pre to, aby sme stopercentne splnili vaše požiadavky a dodali produkt v tej najvyššej kvalite. ”</h3>
-          <p className="font-instrument text-2xl md:text-xl mt-3">Samuel  Stesňák<br /></p>
+          <h3 className="text-xl md:text-3xl mx-auto max-w-sm md:max-w-5xl font-instrument text-center">“V Dionise pristupujeme ku každému klientovi individuálne. Každá zákazka je pre nás jedinečná – a práve v tom spočíva krása našej práce. Spolu s celým tímom urobíme maximum pre to, aby sme stopercentne splnili vaše požiadavky a dodali produkt v tej najvyššej kvalite. ”</h3>
+          <p className="font-instrument text-xl md:text-xl mt-3">Samuel  Stesňák<br /></p>
           <span className="uppercase font-dm-mono text-black/85 text-xs">Spolumajiteľ</span>
         </section>
         <ServicesStack/>
