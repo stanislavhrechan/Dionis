@@ -15,15 +15,15 @@ export async function POST(req: Request) {
             port: 465,
             secure: true,
             auth: {
-                user: 'network.stanislav@gmail.com',
-                pass: 'miwwabqsafvcsqup',
+                user: 'info@dionis.sk',
+                pass: 'bvurzgufmzisrxad',
             },
         });
 
         await transporter.sendMail({
-            from: `"Kontaktný formulár Dionis" <network.stanislav@gmail.com>`,
+            from: `"Kontaktný formulár Dionis" <info@dionis.sk>`,
             replyTo: email,
-            to: 'network.stanislav@gmail.com',
+            to: 'info@dionis.sk',
             subject: `Nový kontakt od ${firstName} ${lastName}`,
             text: `
         Meno: ${firstName} ${lastName}
