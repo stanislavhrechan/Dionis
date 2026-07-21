@@ -68,7 +68,7 @@ export default function Sections() {
                         </div>
                         <div className="z-10 absolute bottom-5 md:bottom-10 mx-4 space-y-2  cursor-pointer">
                             <div className="bg-white p-1">
-                                <h3 className="font-instrument text-2xl">Web pre developérsky projekt</h3>
+                                <h3 className="font-instrument text-2xl">Tvorba web stránok</h3>
                             </div>
                             <div className="bg-white p-1 text-sm max-w-md">Tvorba vizuálne atraktívneho a responzívneho webu, ktorý mení návštevníkov na budúcich majiteľov cez silný storytelling.</div>
                         </div>

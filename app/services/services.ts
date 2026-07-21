@@ -1,7 +1,7 @@
 
 export const services = {
     "web-pre-developersky-projekt" : {
-        title: "Tvorba webových projektov pre rôzne služby",
+        title: "Tvorba web stránok",
         img: "/image/slug/web.png",
         opis: `
         V digitálnom svete je webová stránka prvým miestom, kde sa potenciálny klient stretáva s developerským projektom. Preto navrhujeme webové riešenia, ktoré spájajú moderný dizajn, technickú precíznosť a premyslenú používateľskú skúsenosť. Naším cieľom nie je vytvoriť len esteticky príťažlivú prezentáciu, ale digitálny nástroj, ktorý efektívne komunikuje hodnotu projektu a podporuje predaj nehnuteľností. 

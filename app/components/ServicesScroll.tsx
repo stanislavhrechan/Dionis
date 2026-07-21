@@ -38,7 +38,7 @@ export default function ServicesStack() {
 
         <div className="stack-card sticky top-0 w-full">
           <ServiceCard
-            title="Web pre developérsky projekt. Komerčné weby, firemné prezentácie a rezervačné systémy."
+            title="Tvorba web stránok"
             description="Tvorba moderného, vizuálne atraktívneho a responzívneho webu, ktorý profesionálne prezentuje developerský projekt, podporuje predaj a premieňa návštevníkov na budúcich klientov."
             tags={['Optimalizácia', 'SEO']}
             image="/image/works_type/web.webp"
